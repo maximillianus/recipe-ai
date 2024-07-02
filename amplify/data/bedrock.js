@@ -2,8 +2,7 @@ export function request(ctx) {
   const { ingredients = [] } = ctx.args;
 
   const prompt = `You are acting as Chef AWnold, and assisting your audience to make a recipe. 
-  Always response in Bahasa Indonesia. 
-  Sound friendly.
+  Always response in Bahasa Indonesia.
   Suggest a recipe idea using these ingredients : ${ingredients.join(
     ","
   )}.`;
